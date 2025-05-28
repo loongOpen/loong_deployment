@@ -1,3 +1,4 @@
+      
 <?xml version="1.0" encoding="UTF-8"?>
 <Config>
 <ECAT>
@@ -30,16 +31,16 @@
                 <Object index="0x60ff" subindex="0x00" signed="1" bit_length="32" operation="0">TargetVelocity</Object>
                 <Object index="0x6071" subindex="0x00" signed="1" bit_length="16" operation="0">TargetTorque</Object>
                 <Object index="0x6040" subindex="0x00" signed="0" bit_length="16" operation="0">Controlword</Object>
-                <Object index="0x6060" subindex="0x00" signed="1" bit_length="8" operation="0">Mode</Object>
-                <Object index="0x5ffe" subindex="0x00" signed="1" bit_length="8" operation="0">RxPDOPadding</Object>
+                <Object index="0x6060" subindex="0x00" signed="1" bit_length="8"  operation="0">Mode</Object>
+                <Object index="0x5ffe" subindex="0x00" signed="1" bit_length="8"  operation="0">RxPDOPadding</Object>
                 <Object index="0x60b2" subindex="0x00" signed="1" bit_length="16" operation="0">TorqueOffset</Object>
                 <Object index="0x60b1" subindex="0x00" signed="1" bit_length="32" operation="0">VelocityOffset</Object>
                 <Object index="0x6064" subindex="0x00" signed="1" bit_length="32" operation="1">ActualPosition</Object>
                 <Object index="0x606c" subindex="0x00" signed="1" bit_length="32" operation="1">ActualVelocity</Object>
                 <Object index="0x6077" subindex="0x00" signed="1" bit_length="16" operation="1">ActualTorque</Object>
                 <Object index="0x6041" subindex="0x00" signed="0" bit_length="16" operation="1">StatusWord</Object>
-                <Object index="0x6061" subindex="0x00" signed="1" bit_length="8" operation="1">ModeDisplay</Object>
-                <Object index="0x5fff" subindex="0x00" signed="1" bit_length="8" operation="1">TxPDOPadding</Object>
+                <Object index="0x6061" subindex="0x00" signed="1" bit_length="8"  operation="1">ModeDisplay</Object>
+                <Object index="0x5fff" subindex="0x00" signed="1" bit_length="8"  operation="1">TxPDOPadding</Object>
                 <Object index="0x603f" subindex="0x00" signed="0" bit_length="16" operation="1">ErrorCode</Object>
                 <Object index="0x22a3" subindex="0x01" signed="1" bit_length="16" operation="1">Temperature</Object>
                 <Object index="0x20fc" subindex="0x02" signed="0" bit_length="16" operation="0">ClearError</Object>
@@ -69,23 +70,23 @@
                 <Object>ErrorCode</Object>
             </TxPDOs>
             <Dictionary>
-                <Object index="0x100b" subindex="0x00" signed="0" bit_length="8" operation="1">Alias</Object>
+                <Object index="0x100b" subindex="0x00" signed="0" bit_length="8"  operation="1">Alias</Object>
                 <Object index="0x607a" subindex="0x00" signed="1" bit_length="32" operation="0">TargetPosition</Object>
                 <Object index="0x60ff" subindex="0x00" signed="1" bit_length="32" operation="0">TargetVelocity</Object>
                 <Object index="0x6071" subindex="0x00" signed="1" bit_length="16" operation="0">TargetTorque</Object>
                 <Object index="0x6040" subindex="0x00" signed="0" bit_length="16" operation="0">Controlword</Object>
-                <Object index="0x6060" subindex="0x00" signed="1" bit_length="8" operation="0">Mode</Object>
-                <Object index="0x2000" subindex="0x00" signed="1" bit_length="8" operation="0">RxPDOPadding</Object>
+                <Object index="0x6060" subindex="0x00" signed="1" bit_length="8"  operation="0">Mode</Object>
+                <Object index="0x2000" subindex="0x00" signed="1" bit_length="8"  operation="0">RxPDOPadding</Object>
                 <Object index="0x60b2" subindex="0x00" signed="1" bit_length="16" operation="0">TorqueOffset</Object>
                 <Object index="0x60b1" subindex="0x00" signed="1" bit_length="32" operation="0">VelocityOffset</Object>
                 <Object index="0x6064" subindex="0x00" signed="1" bit_length="32" operation="1">ActualPosition</Object>
                 <Object index="0x606c" subindex="0x00" signed="1" bit_length="32" operation="1">ActualVelocity</Object>
                 <Object index="0x6077" subindex="0x00" signed="1" bit_length="16" operation="1">ActualTorque</Object>
                 <Object index="0x6041" subindex="0x00" signed="0" bit_length="16" operation="1">StatusWord</Object>
-                <Object index="0x6061" subindex="0x00" signed="1" bit_length="8" operation="1">ModeDisplay</Object>
-                <Object index="0x2000" subindex="0x00" signed="1" bit_length="8" operation="1">TxPDOPadding</Object>
+                <Object index="0x6061" subindex="0x00" signed="1" bit_length="8"  operation="1">ModeDisplay</Object>
+                <Object index="0x2000" subindex="0x00" signed="1" bit_length="8"  operation="1">TxPDOPadding</Object>
                 <Object index="0x603f" subindex="0x00" signed="0" bit_length="16" operation="1">ErrorCode</Object>
-                <Object index="0x2222" subindex="0x00" signed="1" bit_length="8" operation="1">Temperature</Object>
+                <Object index="0x2222" subindex="0x00" signed="1" bit_length="8"  operation="1">Temperature</Object>
                 <Object index="0x2388" subindex="0x00" signed="0" bit_length="16" operation="0">ClearError</Object>
                 <Object index="0x2388" subindex="0x00" signed="0" bit_length="16" operation="0">Timeout</Object>
             </Dictionary>
@@ -118,16 +119,16 @@
                 <Object index="0x60ff" subindex="0x00" signed="1" bit_length="32" operation="0">TargetVelocity</Object>
                 <Object index="0x6071" subindex="0x00" signed="1" bit_length="16" operation="0">TargetTorque</Object>
                 <Object index="0x6040" subindex="0x00" signed="0" bit_length="16" operation="0">Controlword</Object>
-                <Object index="0x6060" subindex="0x00" signed="1" bit_length="8" operation="0">Mode</Object>
-                <Object index="0x0000" subindex="0x00" signed="1" bit_length="8" operation="0">RxPDOPadding</Object>
+                <Object index="0x6060" subindex="0x00" signed="1" bit_length="8"  operation="0">Mode</Object>
+                <Object index="0x0000" subindex="0x00" signed="1" bit_length="8"  operation="0">RxPDOPadding</Object>
                 <Object index="0x60b2" subindex="0x00" signed="1" bit_length="16" operation="0">TorqueOffset</Object>
                 <Object index="0x60b1" subindex="0x00" signed="1" bit_length="32" operation="0">VelocityOffset</Object>
                 <Object index="0x6064" subindex="0x00" signed="1" bit_length="32" operation="1">ActualPosition</Object>
                 <Object index="0x606c" subindex="0x00" signed="1" bit_length="32" operation="1">ActualVelocity</Object>
                 <Object index="0x6077" subindex="0x00" signed="1" bit_length="16" operation="1">ActualTorque</Object>
                 <Object index="0x6041" subindex="0x00" signed="0" bit_length="16" operation="1">StatusWord</Object>
-                <Object index="0x6061" subindex="0x00" signed="1" bit_length="8" operation="1">ModeDisplay</Object>
-                <Object index="0x0000" subindex="0x00" signed="1" bit_length="8" operation="1">TxPDOPadding</Object>
+                <Object index="0x6061" subindex="0x00" signed="1" bit_length="8"  operation="1">ModeDisplay</Object>
+                <Object index="0x0000" subindex="0x00" signed="1" bit_length="8"  operation="1">TxPDOPadding</Object>
                 <Object index="0x603f" subindex="0x00" signed="0" bit_length="16" operation="1">ErrorCode</Object>
                 <Object index="0x22a3" subindex="0x01" signed="1" bit_length="16" operation="1">Temperature</Object>
                 <Object index="0x20fc" subindex="0x02" signed="0" bit_length="16" operation="0">ClearError</Object>
@@ -203,13 +204,13 @@
                 <Object>ActualCurrentLittle</Object>
             </TxPDOs>
             <Dictionary>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0" operation="1">Alias</Object>
-                <Object index="0x7010" subindex="0x01" signed="0" bit_length="1" operation="0">StopThumb</Object>
-                <Object index="0x7010" subindex="0x02" signed="0" bit_length="1" operation="0">StopThumbBend</Object>
-                <Object index="0x7010" subindex="0x03" signed="0" bit_length="1" operation="0">StopForefinger</Object>
-                <Object index="0x7010" subindex="0x04" signed="0" bit_length="1" operation="0">StopMiddle</Object>
-                <Object index="0x7010" subindex="0x05" signed="0" bit_length="1" operation="0">StopRing</Object>
-                <Object index="0x7010" subindex="0x06" signed="0" bit_length="1" operation="0">StopLittle</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0"  operation="1">Alias</Object>
+                <Object index="0x7010" subindex="0x01" signed="0" bit_length="1"  operation="0">StopThumb</Object>
+                <Object index="0x7010" subindex="0x02" signed="0" bit_length="1"  operation="0">StopThumbBend</Object>
+                <Object index="0x7010" subindex="0x03" signed="0" bit_length="1"  operation="0">StopForefinger</Object>
+                <Object index="0x7010" subindex="0x04" signed="0" bit_length="1"  operation="0">StopMiddle</Object>
+                <Object index="0x7010" subindex="0x05" signed="0" bit_length="1"  operation="0">StopRing</Object>
+                <Object index="0x7010" subindex="0x06" signed="0" bit_length="1"  operation="0">StopLittle</Object>
                 <Object index="0x0000" subindex="0x00" signed="1" bit_length="10" operation="0">RxPDOPadding</Object>
                 <Object index="0x7020" subindex="0x01" signed="0" bit_length="16" operation="0">TargetSpeedThumb</Object>
                 <Object index="0x7020" subindex="0x02" signed="0" bit_length="16" operation="0">TargetSpeedThumbBend</Object>
@@ -395,75 +396,75 @@
                 <Object>TxData4</Object>
             </TxPDOs>
             <Dictionary>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0" operation="1">Alias</Object>
-                <Object index="0x7000" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_0</Object>
-                <Object index="0x7000" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_0</Object>
-                <Object index="0x7000" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_0</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0"   operation="1">Alias</Object>
+                <Object index="0x7000" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_0</Object>
+                <Object index="0x7000" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_0</Object>
+                <Object index="0x7000" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_0</Object>
                 <Object index="0x7000" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_0</Object>
-                <Object index="0x7010" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_1</Object>
-                <Object index="0x7010" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_1</Object>
-                <Object index="0x7010" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_1</Object>
+                <Object index="0x7010" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_1</Object>
+                <Object index="0x7010" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_1</Object>
+                <Object index="0x7010" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_1</Object>
                 <Object index="0x7010" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_1</Object>
-                <Object index="0x7020" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_2</Object>
-                <Object index="0x7020" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_2</Object>
-                <Object index="0x7020" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_2</Object>
+                <Object index="0x7020" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_2</Object>
+                <Object index="0x7020" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_2</Object>
+                <Object index="0x7020" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_2</Object>
                 <Object index="0x7020" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_2</Object>
-                <Object index="0x7030" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_3</Object>
-                <Object index="0x7030" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_3</Object>
-                <Object index="0x7030" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_3</Object>
+                <Object index="0x7030" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_3</Object>
+                <Object index="0x7030" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_3</Object>
+                <Object index="0x7030" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_3</Object>
                 <Object index="0x7030" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_3</Object>
-                <Object index="0x7040" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_4</Object>
-                <Object index="0x7040" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_4</Object>
-                <Object index="0x7040" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_4</Object>
+                <Object index="0x7040" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_4</Object>
+                <Object index="0x7040" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_4</Object>
+                <Object index="0x7040" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_4</Object>
                 <Object index="0x7040" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_4</Object>
-                <Object index="0x7050" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_5</Object>
-                <Object index="0x7050" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_5</Object>
-                <Object index="0x7050" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_5</Object>
+                <Object index="0x7050" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_5</Object>
+                <Object index="0x7050" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_5</Object>
+                <Object index="0x7050" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_5</Object>
                 <Object index="0x7050" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_5</Object>
-                <Object index="0x7060" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_6</Object>
-                <Object index="0x7060" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_6</Object>
-                <Object index="0x7060" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_6</Object>
+                <Object index="0x7060" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_6</Object>
+                <Object index="0x7060" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_6</Object>
+                <Object index="0x7060" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_6</Object>
                 <Object index="0x7060" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_6</Object>
-                <Object index="0x7070" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_7</Object>
-                <Object index="0x7070" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_7</Object>
-                <Object index="0x7070" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_7</Object>
+                <Object index="0x7070" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_7</Object>
+                <Object index="0x7070" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_7</Object>
+                <Object index="0x7070" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_7</Object>
                 <Object index="0x7070" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_7</Object>
                 <Object index="0x0000" subindex="0x00" signed="0" bit_length="240" operation="0">RxData30</Object>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32" operation="0">RxData4</Object>
-                <Object index="0x6000" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_0</Object>
-                <Object index="0x6000" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_0</Object>
-                <Object index="0x6000" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_0</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32"  operation="0">RxData4</Object>
+                <Object index="0x6000" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_0</Object>
+                <Object index="0x6000" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_0</Object>
+                <Object index="0x6000" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_0</Object>
                 <Object index="0x6000" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_0</Object>
-                <Object index="0x6010" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_1</Object>
-                <Object index="0x6010" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_1</Object>
-                <Object index="0x6010" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_1</Object>
+                <Object index="0x6010" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_1</Object>
+                <Object index="0x6010" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_1</Object>
+                <Object index="0x6010" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_1</Object>
                 <Object index="0x6010" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_1</Object>
-                <Object index="0x6020" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_2</Object>
-                <Object index="0x6020" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_2</Object>
-                <Object index="0x6020" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_2</Object>
+                <Object index="0x6020" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_2</Object>
+                <Object index="0x6020" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_2</Object>
+                <Object index="0x6020" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_2</Object>
                 <Object index="0x6020" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_2</Object>
-                <Object index="0x6030" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_3</Object>
-                <Object index="0x6030" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_3</Object>
-                <Object index="0x6030" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_3</Object>
+                <Object index="0x6030" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_3</Object>
+                <Object index="0x6030" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_3</Object>
+                <Object index="0x6030" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_3</Object>
                 <Object index="0x6030" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_3</Object>
-                <Object index="0x6040" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_4</Object>
-                <Object index="0x6040" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_4</Object>
-                <Object index="0x6040" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_4</Object>
+                <Object index="0x6040" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_4</Object>
+                <Object index="0x6040" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_4</Object>
+                <Object index="0x6040" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_4</Object>
                 <Object index="0x6040" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_4</Object>
-                <Object index="0x6050" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_5</Object>
-                <Object index="0x6050" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_5</Object>
-                <Object index="0x6050" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_5</Object>
+                <Object index="0x6050" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_5</Object>
+                <Object index="0x6050" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_5</Object>
+                <Object index="0x6050" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_5</Object>
                 <Object index="0x6050" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_5</Object>
-                <Object index="0x6060" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_6</Object>
-                <Object index="0x6060" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_6</Object>
-                <Object index="0x6060" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_6</Object>
+                <Object index="0x6060" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_6</Object>
+                <Object index="0x6060" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_6</Object>
+                <Object index="0x6060" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_6</Object>
                 <Object index="0x6060" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_6</Object>
-                <Object index="0x6070" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_7</Object>
-                <Object index="0x6070" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_7</Object>
-                <Object index="0x6070" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_7</Object>
+                <Object index="0x6070" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_7</Object>
+                <Object index="0x6070" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_7</Object>
+                <Object index="0x6070" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_7</Object>
                 <Object index="0x6070" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_7</Object>
                 <Object index="0x0000" subindex="0x00" signed="0" bit_length="240" operation="1">TxData30</Object>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32" operation="1">TxData4</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32"  operation="1">TxData4</Object>
             </Dictionary>
         </Device>
         <Device type="Ruiyan_6dof">
@@ -598,78 +599,78 @@
                 <Object>TxData4</Object>
             </TxPDOs>
             <Dictionary>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0" operation="1">Alias</Object>
-                <Object index="0x7000" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_0</Object>
-                <Object index="0x7000" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_0</Object>
-                <Object index="0x7000" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_0</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0"   operation="1">Alias</Object>
+                <Object index="0x7000" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_0</Object>
+                <Object index="0x7000" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_0</Object>
+                <Object index="0x7000" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_0</Object>
                 <Object index="0x7000" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_0</Object>
-                <Object index="0x7010" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_1</Object>
-                <Object index="0x7010" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_1</Object>
-                <Object index="0x7010" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_1</Object>
+                <Object index="0x7010" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_1</Object>
+                <Object index="0x7010" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_1</Object>
+                <Object index="0x7010" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_1</Object>
                 <Object index="0x7010" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_1</Object>
-                <Object index="0x7020" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_2</Object>
-                <Object index="0x7020" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_2</Object>
-                <Object index="0x7020" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_2</Object>
+                <Object index="0x7020" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_2</Object>
+                <Object index="0x7020" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_2</Object>
+                <Object index="0x7020" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_2</Object>
                 <Object index="0x7020" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_2</Object>
-                <Object index="0x7030" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_3</Object>
-                <Object index="0x7030" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_3</Object>
-                <Object index="0x7030" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_3</Object>
+                <Object index="0x7030" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_3</Object>
+                <Object index="0x7030" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_3</Object>
+                <Object index="0x7030" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_3</Object>
                 <Object index="0x7030" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_3</Object>
-                <Object index="0x7040" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_4</Object>
-                <Object index="0x7040" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_4</Object>
-                <Object index="0x7040" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_4</Object>
+                <Object index="0x7040" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_4</Object>
+                <Object index="0x7040" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_4</Object>
+                <Object index="0x7040" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_4</Object>
                 <Object index="0x7040" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_4</Object>
-                <Object index="0x7050" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_5</Object>
-                <Object index="0x7050" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_5</Object>
-                <Object index="0x7050" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_5</Object>
+                <Object index="0x7050" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_5</Object>
+                <Object index="0x7050" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_5</Object>
+                <Object index="0x7050" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_5</Object>
                 <Object index="0x7050" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_5</Object>
-                <Object index="0x7060" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_6</Object>
-                <Object index="0x7060" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_6</Object>
-                <Object index="0x7060" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_6</Object>
+                <Object index="0x7060" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_6</Object>
+                <Object index="0x7060" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_6</Object>
+                <Object index="0x7060" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_6</Object>
                 <Object index="0x7060" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_6</Object>
-                <Object index="0x7070" subindex="0x01" signed="0" bit_length="16" operation="0">RxIndex_7</Object>
-                <Object index="0x7070" subindex="0x02" signed="0" bit_length="16" operation="0">RxID_7</Object>
-                <Object index="0x7070" subindex="0x03" signed="0" bit_length="16" operation="0">RxLength_7</Object>
+                <Object index="0x7070" subindex="0x01" signed="0" bit_length="16"  operation="0">RxIndex_7</Object>
+                <Object index="0x7070" subindex="0x02" signed="0" bit_length="16"  operation="0">RxID_7</Object>
+                <Object index="0x7070" subindex="0x03" signed="0" bit_length="16"  operation="0">RxLength_7</Object>
                 <Object index="0x7070" subindex="0x04" signed="0" bit_length="240" operation="0">RxData_7</Object>
                 <Object index="0x0000" subindex="0x00" signed="0" bit_length="240" operation="0">RxData30</Object>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32" operation="0">RxData4</Object>
-                <Object index="0x6000" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_0</Object>
-                <Object index="0x6000" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_0</Object>
-                <Object index="0x6000" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_0</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32"  operation="0">RxData4</Object>
+                <Object index="0x6000" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_0</Object>
+                <Object index="0x6000" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_0</Object>
+                <Object index="0x6000" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_0</Object>
                 <Object index="0x6000" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_0</Object>
-                <Object index="0x6010" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_1</Object>
-                <Object index="0x6010" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_1</Object>
-                <Object index="0x6010" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_1</Object>
+                <Object index="0x6010" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_1</Object>
+                <Object index="0x6010" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_1</Object>
+                <Object index="0x6010" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_1</Object>
                 <Object index="0x6010" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_1</Object>
-                <Object index="0x6020" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_2</Object>
-                <Object index="0x6020" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_2</Object>
-                <Object index="0x6020" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_2</Object>
+                <Object index="0x6020" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_2</Object>
+                <Object index="0x6020" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_2</Object>
+                <Object index="0x6020" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_2</Object>
                 <Object index="0x6020" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_2</Object>
-                <Object index="0x6030" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_3</Object>
-                <Object index="0x6030" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_3</Object>
-                <Object index="0x6030" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_3</Object>
+                <Object index="0x6030" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_3</Object>
+                <Object index="0x6030" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_3</Object>
+                <Object index="0x6030" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_3</Object>
                 <Object index="0x6030" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_3</Object>
-                <Object index="0x6040" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_4</Object>
-                <Object index="0x6040" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_4</Object>
-                <Object index="0x6040" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_4</Object>
+                <Object index="0x6040" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_4</Object>
+                <Object index="0x6040" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_4</Object>
+                <Object index="0x6040" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_4</Object>
                 <Object index="0x6040" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_4</Object>
-                <Object index="0x6050" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_5</Object>
-                <Object index="0x6050" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_5</Object>
-                <Object index="0x6050" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_5</Object>
+                <Object index="0x6050" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_5</Object>
+                <Object index="0x6050" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_5</Object>
+                <Object index="0x6050" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_5</Object>
                 <Object index="0x6050" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_5</Object>
-                <Object index="0x6060" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_6</Object>
-                <Object index="0x6060" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_6</Object>
-                <Object index="0x6060" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_6</Object>
+                <Object index="0x6060" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_6</Object>
+                <Object index="0x6060" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_6</Object>
+                <Object index="0x6060" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_6</Object>
                 <Object index="0x6060" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_6</Object>
-                <Object index="0x6070" subindex="0x01" signed="0" bit_length="16" operation="1">TxIndex_7</Object>
-                <Object index="0x6070" subindex="0x02" signed="0" bit_length="16" operation="1">TxID_7</Object>
-                <Object index="0x6070" subindex="0x03" signed="0" bit_length="16" operation="1">TxLength_7</Object>
+                <Object index="0x6070" subindex="0x01" signed="0" bit_length="16"  operation="1">TxIndex_7</Object>
+                <Object index="0x6070" subindex="0x02" signed="0" bit_length="16"  operation="1">TxID_7</Object>
+                <Object index="0x6070" subindex="0x03" signed="0" bit_length="16"  operation="1">TxLength_7</Object>
                 <Object index="0x6070" subindex="0x04" signed="0" bit_length="240" operation="1">TxData_7</Object>
                 <Object index="0x0000" subindex="0x00" signed="0" bit_length="240" operation="1">TxData30</Object>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32" operation="1">TxData4</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="32"  operation="1">TxData4</Object>
             </Dictionary>
         </Device>
-                <Device type="LinkTouch">
+        <Device type="LinkTouch">
             <VendorID>0x000000a1</VendorID>
             <ProductCode>0x00008081</ProductCode>
             <RxPDOs index="0x1600">
@@ -694,7 +695,7 @@
                 <Object>Temper</Object>
             </TxPDOs>
             <Dictionary>
-                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0" operation="1">Alias</Object>
+                <Object index="0x0000" subindex="0x00" signed="0" bit_length="0"  operation="1">Alias</Object>
                 <Object index="0x2000" subindex="0x00" signed="1" bit_length="32" operation="0">ControlCode</Object>
                 <Object index="0x2001" subindex="0x00" signed="1" bit_length="32" operation="0">x</Object>
                 <Object index="0x2002" subindex="0x00" signed="1" bit_length="32" operation="0">y</Object>
@@ -741,48 +742,50 @@
         <Domain master="1" order="1" division="1"/>
     </Domains>
     <Slaves>
-        <Slave master="0" domain="0" alias="1" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="2" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="3" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="4" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="5" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="6" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="7" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="8" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="9" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="10" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="11" type="Elmo">1</Slave>
-        <Slave master="0" domain="0" alias="12" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="13" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="14" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="15" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="16" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="17" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="18" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="19" type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="1"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="2"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="3"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="4"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="5"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="6"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="7"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="8"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="9"   type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="10"  type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="11"  type="Elmo">1</Slave>
+        <Slave master="0" domain="0" alias="12"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="13"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="14"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="15"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="16"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="17"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="18"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="19"  type="Elmo">1</Slave>
         <Slave master="1" domain="0" alias="220" type="LinkTouch">0</Slave>
         <Slave master="1" domain="0" alias="200" type="Tsinghua">0</Slave>
         <Slave master="1" domain="1" alias="200" type="Ruiyan_1dof">0</Slave>
         <Slave master="1" domain="1" alias="200" type="Ruiyan_6dof">0</Slave>
-        <Slave master="1" domain="0" alias="20" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="21" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="22" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="23" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="24" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="25" type="Elmo">1</Slave>
-        <Slave master="1" domain="0" alias="26" type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="20"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="21"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="22"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="23"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="24"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="25"  type="Elmo">1</Slave>
+        <Slave master="1" domain="0" alias="26"  type="Elmo">1</Slave>
         <Slave master="1" domain="0" alias="221" type="LinkTouch">0</Slave>
         <Slave master="1" domain="0" alias="201" type="Tsinghua">0</Slave>
         <Slave master="1" domain="1" alias="201" type="Ruiyan_1dof">0</Slave>
         <Slave master="1" domain="1" alias="201" type="Ruiyan_6dof">0</Slave>
-        <Slave master="0" domain="1" alias="27" type="Elmo">0</Slave>
-        <Slave master="0" domain="1" alias="28" type="Elmo">0</Slave>
-        <Slave master="0" domain="1" alias="29" type="Elmo">0</Slave>
-        <Slave master="0" domain="1" alias="30" type="Elmo">0</Slave>
-        <Slave master="0" domain="1" alias="31" type="Elmo">0</Slave>
+        <Slave master="0" domain="1" alias="27"  type="Elmo">0</Slave>
+        <Slave master="0" domain="1" alias="28"  type="Elmo">0</Slave>
+        <Slave master="0" domain="1" alias="29"  type="Elmo">0</Slave>
+        <Slave master="0" domain="1" alias="30"  type="Elmo">0</Slave>
+        <Slave master="0" domain="1" alias="31"  type="Elmo">0</Slave>
     </Slaves>
 </ECAT>
 <CAN>
+    <Devices>
+    </Devices>
     <Categories>
         <Category name="driver">
         </Category>
@@ -843,7 +846,7 @@
 <Motors>
     <Motor limb="0" motor="0" alias="1">
         <Polarity>-1</Polarity>
-        <CountBias>-62450</CountBias>
+        <CountBias>728098</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>16.227</GearRatioTor>
         <GearRatioPosVel>16.227</GearRatioPosVel>
@@ -856,7 +859,7 @@
     </Motor>
     <Motor limb="0" motor="1" alias="2">
         <Polarity>1</Polarity>
-        <CountBias>-97486</CountBias>
+        <CountBias>-129779</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>16.221</GearRatioTor>
         <GearRatioPosVel>16.221</GearRatioPosVel>
@@ -869,7 +872,7 @@
     </Motor>
     <Motor limb="0" motor="2" alias="3">
         <Polarity>-1</Polarity>
-        <CountBias>-129082</CountBias>
+        <CountBias>119648</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>18.2</GearRatioTor>
         <GearRatioPosVel>18.2</GearRatioPosVel>
@@ -882,7 +885,7 @@
     </Motor>
     <Motor limb="0" motor="3" alias="4">
         <Polarity>-1</Polarity>
-        <CountBias>-148968</CountBias>
+        <CountBias>-345596</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>18.2</GearRatioTor>
         <GearRatioPosVel>18.2</GearRatioPosVel>
@@ -895,7 +898,7 @@
     </Motor>
     <Motor limb="0" motor="4" alias="5">
         <Polarity>1</Polarity>
-        <CountBias>219476</CountBias>
+        <CountBias>-26178</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>15.916</GearRatioTor>
         <GearRatioPosVel>15.916</GearRatioPosVel>
@@ -908,7 +911,7 @@
     </Motor>
     <Motor limb="0" motor="5" alias="6">
         <Polarity>-1</Polarity>
-        <CountBias>-28877</CountBias>
+        <CountBias>-197573</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>15.916</GearRatioTor>
         <GearRatioPosVel>15.916</GearRatioPosVel>
@@ -921,7 +924,7 @@
     </Motor>
     <Motor limb="1" motor="0" alias="7">
         <Polarity>-1</Polarity>
-        <CountBias>16312</CountBias>
+        <CountBias>-8633</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>16.227</GearRatioTor>
         <GearRatioPosVel>16.227</GearRatioPosVel>
@@ -934,7 +937,7 @@
     </Motor>
     <Motor limb="1" motor="1" alias="8">
         <Polarity>1</Polarity>
-        <CountBias>-869</CountBias>
+        <CountBias>-68599</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>16.221</GearRatioTor>
         <GearRatioPosVel>16.221</GearRatioPosVel>
@@ -947,7 +950,7 @@
     </Motor>
     <Motor limb="1" motor="2" alias="9">
         <Polarity>1</Polarity>
-        <CountBias>-81084</CountBias>
+        <CountBias>59973</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>18.2</GearRatioTor>
         <GearRatioPosVel>18.2</GearRatioPosVel>
@@ -960,7 +963,7 @@
     </Motor>
     <Motor limb="1" motor="3" alias="10">
         <Polarity>1</Polarity>
-        <CountBias>-67320</CountBias>
+        <CountBias>-58977</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>18.2</GearRatioTor>
         <GearRatioPosVel>18.2</GearRatioPosVel>
@@ -973,7 +976,7 @@
     </Motor>
     <Motor limb="1" motor="4" alias="11">
         <Polarity>-1</Polarity>
-        <CountBias>-144733</CountBias>
+        <CountBias>-174753</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>15.916</GearRatioTor>
         <GearRatioPosVel>15.916</GearRatioPosVel>
@@ -986,7 +989,7 @@
     </Motor>
     <Motor limb="1" motor="5" alias="12">
         <Polarity>1</Polarity>
-        <CountBias>-72253</CountBias>
+        <CountBias>-150583</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>15.916</GearRatioTor>
         <GearRatioPosVel>15.916</GearRatioPosVel>
@@ -1337,7 +1340,7 @@
     </Motor>
     <Motor limb="4" motor="0" alias="27">
         <Polarity>1</Polarity>
-        <CountBias>-193854</CountBias>
+        <CountBias>78090</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>81</GearRatioTor>
         <GearRatioPosVel>81</GearRatioPosVel>
@@ -1350,7 +1353,7 @@
     </Motor>
     <Motor limb="4" motor="1" alias="28">
         <Polarity>1</Polarity>
-        <CountBias>-174132</CountBias>
+        <CountBias>-44451</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>81</GearRatioTor>
         <GearRatioPosVel>81</GearRatioPosVel>
@@ -1363,7 +1366,7 @@
     </Motor>
     <Motor limb="4" motor="2" alias="29">
         <Polarity>-1</Polarity>
-        <CountBias>-249044</CountBias>
+        <CountBias>-71514</CountBias>
         <EncoderResolution>131072</EncoderResolution>
         <GearRatioTor>51</GearRatioTor>
         <GearRatioPosVel>51</GearRatioPosVel>
@@ -1401,5 +1404,7 @@
         <MaximumPosition>0.69813172</MaximumPosition>
     </Motor>
 </Motors>
-<IMU device="/dev/ttyTHS3" baudrate="460800"/>
+<IMU device="" baudrate="460800"/>
 </Config>
+
+    

@@ -1,8 +1,6 @@
 #!/bin/bash
 
 
-password="***"
-
 
 if [ ! -e "../log" ]; then
 	mkdir ../log
@@ -11,7 +9,7 @@ else
 	cd ../log
 	files=$(ls -lt | tail -n +21 | awk '{print $9}')
 	for file in $files; do
-		echo "$password"|sudo -S rm -f "$file"
+		sudo rm -f "$file"
 	done
 fi
 echo ==========
@@ -28,4 +26,4 @@ else
 	cd ../bin
 fi
 
-echo "$password"|sudo -S ./loong_interface_$tgtArch |sudo tee ../log/terminal_interface.txt
+sudo ./loong_interface_$tgtArch |sudo tee ../log/terminal_interface.txt
